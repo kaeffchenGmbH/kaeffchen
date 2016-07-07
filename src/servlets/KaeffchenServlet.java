@@ -30,7 +30,9 @@ public class KaeffchenServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String x = request.getParameter("x");
 		PrintWriter out = response.getWriter();
-		out.println("<html><body>Vielen Dank für Ihren Einkauf" + x + "</body></html>");
+		out.println("<html><head></head><body>Vielen Dank fÃ¼r Ihren Einkauf<br /><br />" + x + "</body></html>");
+		
+		
 		out.flush();
 		
 	}
