@@ -32,8 +32,12 @@ public class KaeffchenServlet extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		out.println("<html><head></head><body>Vielen Dank für Ihren Einkauf<br /><br />" + x + "</body></html>");
 		
-		
 		out.flush();
+		
+		
+		
+		
+		
 		
 	}
 
